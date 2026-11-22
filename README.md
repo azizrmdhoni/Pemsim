@@ -29,7 +29,7 @@
 **Soal 10: Menyederhanakan kerusakan itu berisiko.**
 Dengan 30 replikasi, rata-rata antrian kasus C (semua acak) adalah **3,85 part**, sedangkan kasus A yang mengabaikan kerusakan hanya **2,22**. Kerusakan yang jarang tapi panjang sulit digantikan hanya dengan menaikkan waktu proses (kasus B: 3,15). Dari 340 kerusakan yang diamati terpisah, antrian baru kembali normal sekitar **710 menit** setelah repair selesai.
 
-![Antrian vs waktu](gambar_04_antrian_waktu.png)
+![Antrian vs waktu](gambar/gambar_04_antrian_waktu.png)
 
 **Soal 11: Frekuensi kerusakan mengubah kesimpulan.**
 Persentase waktu rusak sama di kedua kasus (**4,76%**), tetapi dampaknya berbeda. Pada kerusakan sering, sekitar **79% part** mengalami minimal satu downtime (±47.000 kerusakan per run) dan rata-rata antrian turun ke **2,88**. Di sini, menaikkan waktu proses efektif menjadi pendekatan yang jauh lebih masuk akal.
@@ -40,7 +40,7 @@ Memproses ulang part dengan waktu proses konstan pada kerusakan sering membuat w
 **Soal 14: Bend adalah bottleneck, dan buffer terbaik ada di depannya.**
 Dengan buffer tak terbatas, produksi **157,9 lembar/jam** dan isi buffer sebelum Bend menumpuk paling banyak. Dengan total buffer 15 lembar, alokasi terbaik adalah **(1, 5, 9)**, yaitu **112,7 lembar/jam**. Alokasi (1, 7, 7) praktis setara (selisih −0,04).
 
-![Utilisasi press](gambar_12_utilisasi_press.png)
+![Utilisasi press](gambar/gambar_12_utilisasi_press.png)
 
 > Angka lengkap, tabel, dan pembahasan ada di laporan Word.
 
@@ -55,7 +55,7 @@ Dengan buffer tak terbatas, produksi **157,9 lembar/jam** dan isi buffer sebelum
 
 Diagram alur logika simulasi:
 
-![Logika event](gambar_02_logika_event.png)
+![Logika event](gambar/gambar_02_logika_event.png)
 
 ---
 
